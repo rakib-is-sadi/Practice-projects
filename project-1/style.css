@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0 20%;
+  background: #c5c5c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bg {
+  height: fit-content;
+  width: 100%;
+  background: #a0a0a0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 2rem;
+}
+
+.content-div {
+  background: #ffffff;
+  height: 170px;
+  width: 110px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 15px;
+}
+p {
+  font-size: 12px;
+}
